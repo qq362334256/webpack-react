@@ -1,0 +1,22 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "这是一个通过webpack构建的react项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq362334256/webpack-react.git"
+  },
+  "author": "miaoyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qq362334256/webpack-react/issues"
+  },
+  "homepage": "https://github.com/qq362334256/webpack-react#readme",
+  "dependencies": {
+    "webpack": "^2.4.1"
+  }
+}
