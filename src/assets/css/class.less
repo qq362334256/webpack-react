@@ -1,0 +1,132 @@
+/* class样式表
+ * www.miaoyu.com
+ * v1.0.1
+ * 2017-05-09
+ * Author: miaoyu - 362334256@qq.com
+ */
+.w-100 {
+	width: 100%;
+}
+.h-100 {
+	height: 100%;
+}
+.wh-100 {
+	width: 100%;
+	height: 100%;
+}
+
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+.fixed {
+	position: fixed;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.db {
+	display: block;
+}
+.di {
+	display: inline-block;
+}
+.oh {
+	overflow: hidden;
+}
+.oxh {
+	overflow-x: hidden;
+}
+.oyh {
+	overflow-y: hidden;
+}
+.oa {
+	overflow: auto;
+}
+.oxa {
+	overflow-x: auto;
+}
+.oya {
+	overflow-y: auto;
+}
+.arc {
+	border-radius: 50%;
+}
+.clear {
+	clear: both;
+}
+.clearfix {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+}
+
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-nowrap {
+	white-space: nowrap;
+}
+.text-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text-no-index {
+	text-indent: -999999999px;
+}
+.text-no-sel {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+
+.button {
+	text-align: center;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	&:active {
+		transform: scale(0.9);
+		transition: transform .1s;
+	}
+	&.disabled {
+		cursor: not-allowed;
+
+		&:active {
+			pointer-events: none;
+			transform: none;
+			transition: none;
+		}
+	}
+}
+
+.ico {
+	display: inline-block;
+}
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}

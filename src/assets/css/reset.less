@@ -1,0 +1,158 @@
+/* web重置样式表
+ * www.miaoyu.com
+ * v1.0.1
+ * 2017-05-09
+ * Author: miaoyu - 362334256@qq.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+small {
+    font-size: .9em;
+}
+
+:focus {
+	outline: 1;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary { 
+    display: block;
+}
+
+nav ul,
+ul, ol {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    color: #1e1e1e;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    -webkit-appearance: none; /*取消iphone自带样式*/
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    &:link {
+        color: #1e1e1e;
+    }
+    &:visited {
+        color: #1e1e1e;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+    &:active {
+        color: #1e1e1e;
+    }
+}
+
+ins {
+    color: #000;
+    text-decoration: none;
+    background-color: #ff9;
+}
+
+mark {
+    color: #000; 
+    font-style: italic;
+    font-weight: bold;
+    background-color: #ff9;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+    border: 0;   
+    border-top: 1px solid #cccccc;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+input {
+    border-radius: 0;
+    border: none;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+input[type="button"],
+button {
+    text-indent: 0;
+    text-align: center;
+    border-radius: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+}
+
+html, body {
+    box-sizing: content-box;
+    color: #1e1e1e;
+    font: 12px/150% PingFang SC, Microsoft Yahei, SimHei, Verdana, Arial, SimSun;
+    background-color: #fff;
+    cursor: default;
+}
