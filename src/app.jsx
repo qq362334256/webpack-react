@@ -1,20 +1,22 @@
+import './assets/css/basic.less';
 import React, { Component } from 'react';
 import ReactDOM, { render } from 'react-dom';
-
-const style = {
-	float: 'left',
-	marginLeft: 20,
-	marginTop: 20,
-	padding: '5px 10px',
-	border: '1px solid gray',
-	display: 'flex'
-};
-
-const Button = () => <span style={style} className="button" onClick={() => console.log(11)}>点击</span>;
+import Header from './components/layout/header/header.jsx';
+import LeftMenu from './components/layout/menu/leftMenu.jsx';
 
 
+// app组件
+const App = () => (
+	<div className="app flex h-100">
+		<LeftMenu></LeftMenu>
+		<div className="right-main flex1" style={{background: 'green'}}>
+			<Header></Header>
+		</div>
+	</div>
+);
 
+// 渲染APP应用
 render(
-	<Button></Button>,
+	<App />,
 	document.getElementsByTagName('body')[0]
 );

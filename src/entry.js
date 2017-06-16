@@ -2,4 +2,4 @@
 import './assets/css/reset.less';
 import './assets/css/class.less';
 
-import './app.jsx'
+import './app.jsx';
